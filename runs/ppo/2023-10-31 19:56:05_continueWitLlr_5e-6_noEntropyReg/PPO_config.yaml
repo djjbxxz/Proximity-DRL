@@ -1,0 +1,25 @@
+# __________ buffer Parameters __________
+buffer_length: 10000
+batch_size: 4
+
+# __________ Training Parameters __________
+num_episodes_collect_per_iteration: 4
+num_epochs: 10
+eval_interval: 500   
+eval_episodes: 30  
+save_interval: 1000
+log_interval: 1
+learning_rate: 0.000005
+
+
+# __________ Agent Parameters __________
+initial_adaptive_kl_beta: 1.0
+adaptive_kl_target: 0.01
+adaptive_kl_tolerance: 0.01
+kl_cutoff_factor: 0.0
+
+value_pred_loss_coef: 0.005
+entropy_regularization: 0.0
+policy_l2_reg: 0.0
+value_function_l2_reg: 0.0
+shared_vars_l2_reg: 0.0

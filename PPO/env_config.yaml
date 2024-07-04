@@ -1,0 +1,25 @@
+# __________ Environment Parameters __________
+num_racks_per_cluster: 2
+num_machines_per_rack: 4
+num_gpus_per_machine: 4
+max_gpu_request: 8
+max_job_len: 40
+jobqueue_maxlen: 10
+max_backlog_len: 0
+new_job_rate: 1
+target_num_job_arrive: 50
+ret_reducer: 1.0
+gpu_request_skew: 0
+job_len_skew: False
+max_num_timesteps: 500000
+preemptive: False
+max_episode_len: 10000
+seed: 564
+#__________ Reward Parameters __________
+
+invalid_action_penalty: -2
+time_penalty: -1
+idle_reward: -1
+reward_assign_1gpu: 0
+reward_episode_end: -1
+utilization_scale: 0
