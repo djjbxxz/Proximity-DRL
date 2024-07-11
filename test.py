@@ -12,7 +12,7 @@ if __name__=='__main__':
     num_episode = 1
     seed = 2018
 
-    testcase = TestCase(firstcomesfirstserve(),PPOGpuSelector('runs/ppo/2023-10-31 19:56:05_continueWitLlr_5e-6_noEntropyReg'),seed)
+    testcase = TestCase(firstcomesfirstserve(),PPOGpuSelector('runs/ppo/2023-10-31 19_56_05_continueWitLlr_5e-6_noEntropyReg'),seed)
     # dump(testcase)
     testcase.run(num_episode)
 

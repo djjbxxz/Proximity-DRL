@@ -13,7 +13,7 @@ class PPOGpuSelector(GpuSelector):
         import yaml
         #delay import
         super().__init__('PPO RL')
-        self.weight_path = weight_path if weight_path is not None else 'runs/ppo/2023-10-31 19:56:05_continueWitLlr_5e-6_noEntropyReg'
+        self.weight_path = weight_path if weight_path is not None else 'runs/ppo/2023-10-31 19_56_05_continueWitLlr_5e-6_noEntropyReg'
         self.name+=f' weight path: {self.weight_path}'
         train_env = TFPyEnvironment(py_GpuSelectEnv())
         test_env = py_GpuSelectEnv(test_mode=True)
