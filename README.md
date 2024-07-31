@@ -1,3 +1,7 @@
+# Summary
+
+This project is to develop a scheduling policy for large GPU cluster, aiming at reducing communication cost for large scale distributed learning (For example, like training LLM) please refer the publication for more detail. [GPU Job Scheduler with Deep Reinforcement Learning](https://caiac.pubpub.org/pub/u6j20p40)
+
 # Installation
 
 This package is tested with Python 3.9.16. It may work with higher versions but has not been officially tested.
